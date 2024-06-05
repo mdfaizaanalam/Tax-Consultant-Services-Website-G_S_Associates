@@ -1,0 +1,591 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ---------------------Body styles ---------------------------*/
+body {
+  font-family: "poppins", sans-serif;
+  background-color: rgb(231, 227, 227);
+  color: black;
+}
+
+/* ----------------------Header styles -------------------------*/
+#header {
+  background-color: #343a40;
+  color: #fff;
+  position: fixed;
+  padding: 10px 3%;
+  width: 100%;
+  z-index: 100;
+}
+
+/* -------------------------------Nav Bar -------------------------*/
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 60px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 17px;
+  font-size: 22px;
+  position: relative;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 21px;
+  text-decoration: none;
+  font-weight: 550;
+}
+
+nav ul li::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: red;
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  transition: 0.5s;
+}
+
+nav ul li.active a {
+  color: aqua; /* Change this to your desired color */
+}
+nav ul li:hover::after {
+  width: 80%;
+}
+
+/*--------------------Header Text---------------------------*/
+.banner img {
+  width: 100%;
+  height: 100vh;
+}
+
+.introduction p {
+  font-size: 1.4rem;
+  text-align: left;
+  padding: 5% 15% 5% 5%;
+  line-height: 27px;
+}
+
+/*------------------About Me--------------*/
+.line1 {
+  height: 5px;
+  background-color: gold;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+.about-us h2 {
+  font-size: 55px;
+  text-align: center;
+  padding: 2% 0px 0px 0px;
+}
+
+.about-us p {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 20px 5% 20px 5%;
+  line-height: 27px;
+}
+
+.about-img img {
+  display: block;
+  width: 60%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/*-------------------------Testimonial----------------------*/
+.testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #010a19;
+  color: white;
+  font-style: italic;
+  margin: 2% 0;
+}
+
+.testimonial p {
+  font-size: 1.4rem;
+  max-width: max-content;
+  padding: 5px 5%;
+  line-height: 30px;
+}
+
+.testimonial span {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  margin-right: 150px;
+  margin-left: 0px;
+  text-wrap: nowrap;
+  margin-top: 80px;
+}
+
+/*-------------Services------------------*/
+.line2 {
+  height: 5px;
+  background-color: gold;
+  margin-bottom: 3%;
+  margin-top: 5%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+#services {
+  padding: 10px 3%;
+}
+.container {
+  padding: 10px 3%;
+}
+.sub-title h2 {
+  font-size: 55px;
+  text-align: center;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  grid-gap: 5%;
+  margin-top: 50px;
+}
+
+.card {
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+  height: 52vh;
+}
+
+.layer {
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgb(5, 2, 48));
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.layer h2 {
+  font-size: 2.8rem;
+  font-weight: 900px;
+  margin-bottom: 1rem;
+  color: rgb(247, 233, 233);
+  line-height: 3.2rem;
+}
+.layer p {
+  font-size: 1.2rem;
+}
+.layer a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  margin-top: 15px;
+  line-height: 60px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.card:hover .layer {
+  height: 100%;
+}
+
+/*------------TEXT------------------------*/
+.line3 {
+  height: 5px;
+  background-color: gold;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+.title h2 {
+  font-size: 55px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.work-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  grid-gap: 5%;
+  padding: 2% 5%;
+}
+
+.work {
+  overflow: hidden;
+  width: 100%;
+  border-radius: 50px;
+  display: block;
+  height: 46vh;
+  background-color: rgb(103, 86, 86);
+  text-align: center;
+}
+
+.work h2 {
+  font-size: 4rem;
+  padding: 8px;
+  color: antiquewhite;
+}
+
+.work h3 {
+  font-size: 2.2rem;
+  color: aliceblue;
+}
+
+.work p {
+  font-size: 1.2rem;
+  padding: 15px;
+  color: aliceblue;
+}
+
+.btn {
+  text-align: center;
+  padding-top: 25px;
+}
+
+/*-------------------Contact Me-------------------*/
+
+.line4 {
+  height: 5px;
+  background-color: gold;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#contact {
+  padding: 5% 10%;
+}
+
+.content h2 {
+  text-align: center;
+  align-items: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-left {
+  flex-basis: 40%;
+}
+
+.contact-left h3 {
+  font-size: 35px;
+}
+
+.contact-left p {
+  margin-top: 5px;
+  padding: 7px;
+}
+
+.contact-left p i {
+  color: red;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.social-icons a {
+  /*-----------ICONS---------------*/
+  margin-top: 15px;
+  text-decoration: none;
+  font-size: 30px;
+  color: gray;
+  display: inline-block;
+  margin-right: 15px;
+  transition: transform 0.5s;
+  margin: 30px 12px 30px 0px;
+}
+
+.social-icons a:hover {
+  color: rgb(196, 18, 18);
+  transform: translateY(-8px);
+}
+
+.btn.btn2 {
+  /*----------------Download & Submit button------------*/
+  margin-top: 15px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: inline-block;
+  background-color: red;
+  border-radius: 12px;
+  padding: 10px 20px;
+  transition: transform 0.5s;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  color: black;
+  transform: translateY(-6px);
+}
+
+.contact-right {
+  flex-basis: 50%;
+}
+
+.contact-right form {
+  width: 100%;
+}
+
+form input,
+form textarea {
+  width: 95%;
+  border: 0;
+  outline: none;
+  background-color: rgb(163, 150, 150);
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+#msg {
+  color: greenyellow;
+  display: block;
+  font-size: 15px;
+}
+
+
+/*-------------------------Footter--------------------*/
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+span {
+  color: red;
+}
+
+.footer p {
+  font-size: 20px;
+}
+
+.footer i {
+  color: red;
+}
+
+.footer ul {
+  display: flex;
+  gap: 30px;
+}
+
+.footer ul li {
+  list-style: none;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s;
+  font-size: 20px;
+}
+
+.footer ul li a:hover {
+  color: #cc4444;
+}
+
+/*---------------------CS FOR SMALL SCREEN------------------*/
+/* ------------for sidemenu of nav bar------------*/
+nav .fa-solid {
+  display: none;
+}
+@media only screen and (max-width: 900px) {
+  .logo {
+    font-size: 40px;
+  }
+  nav ul {
+    background: rgb(82, 42, 42);
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 1000;
+    transition: right 0.3s ease;
+  }
+  nav ul li {
+    display: block;
+    margin: 25px;
+    font-size: 20px;
+  }
+  nav ul .fa-solid {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+  nav .fa-solid {
+    display: block;
+    font-size: 25px;
+  }
+
+
+
+  /*---------------------Banner------------*/
+  .banner img {
+    height: 40vh;
+  }
+
+  /*----------------------About Us--------------------------*/
+  .about-img img {
+    width: 80%;
+    height: 35vh;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  
+  
+
+  /*----------------------Testimonial------------------*/
+  .testimonial p {
+    font-size: 1rem;
+  }
+  .testimonial span {
+    margin-right: 50px;
+  }
+
+  /*--------------------------Service------------------*/
+  .services-list {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 40px;
+  }
+  /*
+  .card img {
+    height: 45vh;
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+  }
+  
+  .layer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    line-height: 60px;
+  }
+  .layer h2 {
+    font-size: 40px;
+    font-weight: 1000;
+    margin-bottom: 15px;
+    color: rgb(247, 233, 233);
+  }
+ */
+
+  /*------------------How It Works-------------------*/
+  /*
+  .work {
+    overflow: hidden;
+    width: 100%;
+    border-radius: 50px;
+    display: block;
+    background-color: rgb(103, 86, 86);
+    text-align: center;
+  }
+  
+  .work h2 {
+    font-size: 70px;
+    padding: 8px;
+    color: antiquewhite;
+  }
+  
+  .work h3 {
+    font-size: 35px;
+    color: aliceblue;
+  }
+  .work p {
+    font-size: 1.2rem;
+    padding: 1rem;
+    color: aliceblue;
+    
+  }*/
+  .btn {
+    text-align: center;
+    padding-top: 80px;
+  }
+
+  /*-------------------Contact Form----------------*/
+  .contact-left,
+  .contact-right {
+    flex-basis: 100%;
+  }
+  .content h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+  .contact-left h3 {
+    font-size: 28px;
+  }
+  .contact-left p {
+    font-size: 20px;
+  }
+}
