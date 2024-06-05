@@ -15,7 +15,7 @@ Certainly! Let's make it even more attractive with enhanced styling and addition
 
 ## 💻 Technologies Used
 
-<p align="center">
+<p align="left">
   <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="60" height="60"/>
   </a>
@@ -23,7 +23,7 @@ Certainly! Let's make it even more attractive with enhanced styling and addition
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="60" height="60"/>
   </a>
   <a href="https://www.w3schools.com/js/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="60" height="60"/>
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50"/>
   </a>
 </p>
 
@@ -31,7 +31,7 @@ Certainly! Let's make it even more attractive with enhanced styling and addition
 
 ## 🚀 Deployed On
 
-<p align="center">
+<p align="left">
   <a href="https://www.netlify.com/" target="_blank" rel="noreferrer">
     <img src="https://download.logo.wine/logo/Netlify/Netlify-Logo.wine.png" alt="Netlify" width="150" height="120"/>
   </a>
@@ -41,7 +41,7 @@ Certainly! Let's make it even more attractive with enhanced styling and addition
 
 ## 📞 Connect with Me
 
-<p align="center">
+<p align="left">
   <a href="https://www.linkedin.com/in/md-faizaan-alam-78b75714a/" target="_blank">
     <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Md Faizaan Alam" height="40" width="50" />
   </a>
