@@ -28,12 +28,6 @@ Certainly! Let's make it even more attractive with enhanced styling and addition
   <a href="https://www.w3schools.com/js/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50"/>
   </a>
-  <a href="https://www.framer.com/motion/" target="_blank" rel="noreferrer">
-    <img src="https://www.framer.com/api/og/motion.png" alt="Framer Motion" width="60" height="60"/>
-  </a>
-  <a href="https://fontawesome.com/" target="_blank" rel="noreferrer">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Font_Awesome_5_brands_font-awesome.svg" alt="Font Awesome" width="60" height="60"/>
-  </a>
 </p>
 
 ---
