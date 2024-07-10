@@ -1,4 +1,3 @@
-Certainly! Let's make it even more attractive with enhanced styling and additional visual elements:
 
 ---
 
